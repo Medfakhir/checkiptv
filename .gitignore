@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+
+# local environment files
+.env
+.env.*
+!.env.example
+
+# logs and operating-system files
+*.log
+.DS_Store
+
+# TypeScript build data
+*.tsbuildinfo
+
+# IDE project settings
+.idea/
